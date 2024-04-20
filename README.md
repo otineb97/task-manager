@@ -38,9 +38,7 @@ git clone https://github.com/otineb97/task-manager.git
 - **morgan**: HTTP request logger middleware for Node.js.
 - **pug**: Template engine used for server-side rendering (optional, as it may not be directly related to your project).
 
-3. Set up environment variables
-
-Create a '.env' file in the root directory and add the following variables:
+3. Create a '.env' file in the root directory and add the following variables
 
 require('dotenv').config(); MONGODB_URI=your_mongodb_uri JWT_SECRET=your_jwt_secret
 
