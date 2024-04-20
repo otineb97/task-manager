@@ -18,13 +18,13 @@ Task Manager is a web application designed to help users manage their tasks effi
 
 ## Installation
 
-1. Clone the repository:
+1. Clone the repository
 
 ```bash
 git clone https://github.com/otineb97/task-manager.git
 ```
 
-2. Install dependencies:
+2. Install dependencies
 
 - **cd task-manager**
 - **npm install**
@@ -38,7 +38,7 @@ git clone https://github.com/otineb97/task-manager.git
 - **morgan**: HTTP request logger middleware for Node.js.
 - **pug**: Template engine used for server-side rendering (optional, as it may not be directly related to your project).
 
-3. Set up environment variables:
+3. Set up environment variables
 
 Create a **.env** file in the root directory and add the following variables:
 
