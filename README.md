@@ -40,11 +40,9 @@ git clone https://github.com/otineb97/task-manager.git
 
 3. Set up environment variables
 
-Create a **.env** file in the root directory and add the following variables:
+Create a '.env' file in the root directory and add the following variables:
 
-**require('dotenv').config();
-MONGODB_URI=your_mongodb_uri
-JWT_SECRET=your_jwt_secret**
+require('dotenv').config(); MONGODB_URI=your_mongodb_uri JWT_SECRET=your_jwt_secret
 
 Replace 'your_mongodb_uri' with your MongoDB connection string and 'your_jwt_secret' with a secret key for JWT.
 
