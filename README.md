@@ -40,7 +40,7 @@ git clone https://github.com/otineb97/task-manager.git
 
 3. Set up environment variables:
 
-Create a .env file in the root directory and add the following variables:
+Create a **.env** file in the root directory and add the following variables:
 
 **require('dotenv').config();
 MONGODB_URI=your_mongodb_uri
@@ -67,5 +67,7 @@ Contributions are welcome! Please fork the repository and create a pull request 
 # License
 
 This project is licensed under the MIT License.
+
+This project is licensed under the [MIT License](LICENSE).
 
 Feel free to customize it further based on your project's specific details and requirements!
