@@ -1,0 +1,37 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Login
+    link(rel="icon", type="image/svg+xml", href="/img/2290855_check_document_done_list_paper_icon.svg")
+    // Bootstrap CSS
+    link(href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css", rel="stylesheet")
+    // Custom CSS
+    link(rel="stylesheet", href="/styles/styles.css")
+  body
+    section.container.d-flex.justify-content-center.align-items-center.vh-100
+      article.row
+        div.col-md-6
+          div.card.bg-transparent.border-0(style="width: 300px;")
+            div.card-body
+              div.text-center.mb-4
+                img(src="/img/bootstrap-logo.svg", alt="Bootstrap Logo", width="72", height="57")
+              h5.card-title.text-center.mb-4 Sign In
+              form#login-form
+                //- Username Input
+                div.mb-3
+                  label(for="username", class="form-label visually-hidden") Username
+                  input(type="text", class="form-control", name="username", placeholder="Username", required, pattern="[a-zA-Z0-9]+", title="Enter a valid username (letters and numbers only)", autocomplete="username")
+                //- Password Input
+                div.mb-4
+                  label(for="password", class="form-label visually-hidden") Password
+                  input(type="password", class="form-control", name="password", placeholder="Password", required, autocomplete="current-password")
+                //- Submit Button
+                div.d-grid.mb-3
+                  button(type="submit", class="btn btn-primary") Continue
+                //- Sign Up Link
+                p.text-body-secondary.text-center.mb-0 Don't have an account? 
+                  a(href="/register") Sign Up
+    //- Custom Script
+    script(src="/js/login.js")
