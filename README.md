@@ -26,8 +26,12 @@ git clone https://github.com/otineb97/task-manager.git
 
 2. Install dependencies
 
-- **cd task-manager**
-- **npm init -y**
+```bash
+cd task-manager
+```
+```bash
+npm init -y
+```
 - **npm install**
 - **bcryptjs**: Used for password hashing.
 - **dotenv**: Used for loading environment variables from a .env file.
