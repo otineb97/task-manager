@@ -47,7 +47,7 @@ npm install
 - Create a **.env** file in the root directory and add the following variables
 
 ```bash
-require('dotenv').config(); MONGODB_URI=your_mongodb_uri JWT_SECRET=your_jwt_secret
+MONGODB_URI=your_mongodb_uri JWT_SECRET=your_jwt_secret
 ```
 
 - Replace 'your_mongodb_uri' with your MongoDB connection string and 'your_jwt_secret' with a secret key for JWT.
