@@ -32,7 +32,9 @@ cd task-manager
 ```bash
 npm init -y
 ```
-- **npm install**
+```bash
+npm install
+```
 - **bcryptjs**: Used for password hashing.
 - **dotenv**: Used for loading environment variables from a .env file.
 - **ejs**: Template engine used for server-side rendering.
