@@ -30,9 +30,6 @@ git clone https://github.com/otineb97/task-manager.git
 cd task-manager
 ```
 ```bash
-npm init -y
-```
-```bash
 npm install
 ```
 - **bcryptjs**: Used for password hashing.
