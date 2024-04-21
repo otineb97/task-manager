@@ -49,7 +49,7 @@ require('dotenv').config(); MONGODB_URI=your_mongodb_uri JWT_SECRET=your_jwt_sec
 
 4. Run the application: **npm run start**
 
-The application will be running at 'http://localhost:3000'.
+- The application will be running at 'http://localhost:3000/'.
 
 ## Usage
 
