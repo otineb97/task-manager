@@ -40,7 +40,7 @@ npm install
 - **jsonwebtoken**: Used for generating and verifying JSON Web Tokens (JWT).
 - **mongoose**: MongoDB object modeling tool designed to work in an asynchronous environment.
 - **morgan**: HTTP request logger middleware for Node.js.
-- **pug**: Template engine used for server-side rendering (optional, as it may not be directly related to your project).
+- **pug**: Template engine used for server-side rendering.
 
 3. Set up environment variables
 
