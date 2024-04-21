@@ -18,15 +18,16 @@ Task Manager is a web application designed to help users manage their tasks effi
 
 ## Installation
 
-1. Clone the repository:
+1. Clone the repository
 
 ```bash
 git clone https://github.com/otineb97/task-manager.git
 ```
 
-2. Install dependencies:
+2. Install dependencies
 
 - **cd task-manager**
+- **npm init -y**
 - **npm install**
 - **bcryptjs**: Used for password hashing.
 - **dotenv**: Used for loading environment variables from a .env file.
@@ -38,13 +39,11 @@ git clone https://github.com/otineb97/task-manager.git
 - **morgan**: HTTP request logger middleware for Node.js.
 - **pug**: Template engine used for server-side rendering (optional, as it may not be directly related to your project).
 
-3. Set up environment variables:
+3. Set up environment variables. Create a *.env* file in the root directory and add the following variables
 
-Create a .env file in the root directory and add the following variables:
-
-**require('dotenv').config();
-MONGODB_URI=your_mongodb_uri
-JWT_SECRET=your_jwt_secret**
+```bash
+require('dotenv').config(); MONGODB_URI=your_mongodb_uri JWT_SECRET=your_jwt_secret
+```
 
 Replace 'your_mongodb_uri' with your MongoDB connection string and 'your_jwt_secret' with a secret key for JWT.
 
