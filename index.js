@@ -2,7 +2,7 @@
 const express = require('express');
 const path = require('path');
 const logger = require('morgan');
-const database = require('./config/database');
+const database = require('./config/dbConfig');
 const authRoutes = require('./app/routes/authRoutes');
 const taskRoutes = require('./app/routes/taskRoutes');
 
@@ -27,7 +27,7 @@ app.set('view engine', 'pug');
 
 // Define routes
 const renderIndex = (req, res) => res.render('index');
-app.get(['/', '/index'], renderIndex);
+app.get('/', renderIndex)
 app.get('/register', (req, res) => res.render('register'));
 app.get('/tasks', (req, res) => res.render('tasks'));
 app.get('/api', (req, res) => res.json({ msg: 'Task Manager' }));
