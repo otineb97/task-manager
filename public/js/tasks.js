@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
         localStorage.removeItem('userId');
         localStorage.removeItem('token');
         alert('Logged out successfully!');
-        window.location.href = 'index';
+        window.location.href = '/';
     }
 
     // Function to validate task deadline
