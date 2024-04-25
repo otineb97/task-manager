@@ -1,6 +1,6 @@
 # Task Manager Web Application
 
-Task Manager is a web application designed to help users manage their tasks efficiently. Users can register an account, log in, add new tasks, mark tasks as completed, update task details, and delete tasks.
+It is a web application designed to help users manage their tasks efficiently. Users can register an account, log in, add new tasks, mark tasks as completed, update task details, and delete tasks.
 
 ## Features
 
